@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+body {
+	background-image: url("Images/bgimg2.jfif");
+	background-size: 100%;
+	width: 1470px;
+	color: #902A9B;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Reenie Beanie', cursive;
+}
+
+header { 
+	width:1280px;
+	background-color: #c74553;
+	magin: 0 auto;
+	text-align: center;
+	border-radius: 3px;
+	border-width:1px;
+	border-color: rgba(139,10,197,0.74);
+	height: 170px;
+
+}
+header h1 {
+    display: inline;
+	font-size: 2.8em;
+    color: #FFF; 
+    margin-right: 10px;	
+	padding-top: 10px;
+}
+#wrapper {
+	background-color: rgba(247,158,125,0.91);
+	border-radius: 5px ;
+	border: thick green;
+	width: 1280px;
+	height: 900px;
+	margin: 0 auto;
+	text-align: center;	
+}
+h3 {
+	color: aliceblue;
+}
+
+#logo1{
+	margin-top: 23px;
+	float:left;
+	padding-left: 30px;
+}
+#logo2{
+	margin-top: 23px;
+	float:right;
+	padding-right: 30px ;
+}
+nav ul li a{
+    color: #FFF;
+    text-decoration: bold;
+} 
+nav ul {
+    text-align: center;
+	margin-top: 45px;
+	margin-right: auto; 
+}
+nav ul li {
+    color: #FEFEFE;
+    list-style-type: none;
+    font-size: 22px;
+    display: inline;
+    padding-right: 50px;
+	padding-left: 50px; 
+	
+} 
+nav ul li a:hover{
+	color:#EA3F7B;
+}
+li {
+	font-family: 'Architects Daughter', cursive;
+}
+body hr{
+	width: 75px;
+	border: none;
+}
+
+article {
+	margin-top: 40px;
+    width: 1200px;
+	line-height: 30px;
+	border-radius: 10px;
+    display:inline-block;
+    background-color: rgba(11,90,156,.8);	
+	color: rgba(255,255,255,1);
+	
+}
+#container p:first-child::first-letter{
+	color: #F7E47E;
+	font-weight: bold;
+	font-size: 60px;
+	padding-right: 2px;
+	
+	
+}
+#imag4show{
+	padding-top: 20px;
+}
+#imgtext{
+	text-decoration: overline;
+}
+	
+p{
+	text-align: center;
+	
+	font-family: 'Sometype Mono', monospace;
+}
+
+footer{
+	margin: 0 auto;
+	text-align: center;
+	padding-top:10px;
+	color: #FFFFFF;
+}
+
+#central { 
+	background-color: rgba(52,143,8,0.56);
+	border-width: 1px;
+	border-color: rgba(63,11,115,0.92);
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;}
